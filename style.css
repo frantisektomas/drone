@@ -169,7 +169,7 @@ input:-webkit-autofill:focus {
 }
 
 .top-area-bg::before {
-    background: rgba(0, 0, 0, 0) url("img/slider/home_main_bg.png") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("img/slider/home_main_bg.jpg") no-repeat fixed center center / cover;
     content: "";
     height: 100%;
     left: 0;
@@ -281,7 +281,7 @@ ul#nav li a {
 
 ul#nav li a::before,
 ul#nav li a::after {
-    background: #339900 none repeat scroll 0 0;
+    background: #C7AF59 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 2px;
@@ -359,8 +359,8 @@ ul#nav li:hover a::after {
 }
 
 .push-menu-open-button:hover {
-    color: #ffffff;
-    background: #37a000;
+    color: #fff;
+    background: #C7AF59;
 }
 
 .push-menu-open-button::before {
@@ -615,7 +615,7 @@ ul#nav li:hover a::after {
 }
 
 .push-menu-close {
-    background: #37a000 none repeat scroll 0 0;
+    background: #C7AF59 none repeat scroll 0 0;
     color: #fff;
     cursor: pointer;
     font-size: 35px;
@@ -632,7 +632,7 @@ ul#nav li:hover a::after {
 
 .push-menu-close:hover {
     background: #fff none repeat scroll 0 0;
-    color: #37a000;
+    color: #C7AF59;
 }
 
 .push-menu-logo {
@@ -754,7 +754,7 @@ ul#nav li:hover a::after {
 }
 
 .call-to-action a:hover {
-    background: #37a000 none repeat scroll 0 0;
+    background: #C7AF59 none repeat scroll 0 0;
     box-shadow: 0 0 10px #ffffff;
     color: #fff;
 }
@@ -776,13 +776,13 @@ ul#nav li:hover a::after {
 }
 
 .home-button a:hover {
-    color: #37a000;
+    color: #C7AF59;
 }
 
 .home-button a i {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    color: #37a000;
+    color: #C7AF59;
     -webkit-transition: color 0.3s ease 0s;
     transition: color 0.3s ease 0s;
 }
@@ -808,17 +808,19 @@ ul#nav li:hover a::after {
 }
 
 .single-promo:hover {
-    background: #37a000 none repeat scroll 0 0;
-    color: #fff;
+    background: #C7AF59 none repeat scroll 0 0;
+    color: #000;
 }
 
-.single-promo:hover .promo-icon,
-.single-promo:hover h3 {
+.single-promo:hover .promo-icon {
     color: #fff;
+}
+.single-promo:hover h3 {
+    color: #000;
 }
 
 .promo-icon {
-    color: #37a000;
+    color: #C7AF59;
     font-size: 60px;
     height: 80px;
     margin: 0 auto 20px;
@@ -937,7 +939,7 @@ a.see-more:hover i {
 }
 
 .area-title-icon {
-    color: #37a000;
+    color: #C7AF59;
     font-size: 80px;
     height: 70px;
     margin: 0 auto;
@@ -960,7 +962,7 @@ a.see-more:hover i {
 
 .area-title h2::after,
 .area-title h2::before {
-    background: #37a000;
+    background: #C7AF59;
     bottom: -5px;
     content: "";
     height: 2px;
@@ -1001,7 +1003,7 @@ a.see-more:hover i {
 }
 
 .features-icon {
-    color: #37a000;
+    color: #C7AF59;
     font-size: 60px;
     height: 100px;
     left: 0;
@@ -1018,7 +1020,7 @@ a.see-more:hover i {
 }
 
 .single-features::before {
-    background: green none repeat scroll 0 0;
+    background: #C7AF59 none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     content: counter(features, decimal);
@@ -1164,7 +1166,7 @@ a.see-more:hover i {
 }
 
 .single-product:hover {
-    box-shadow: 0 0 0 4px #37a000;
+    box-shadow: 0 0 0 4px #C7AF59;
 }
 
 .product-name-and-specification {
@@ -1427,15 +1429,15 @@ label.mt10.valid {
 ------------------------------*/
 
 .contact-form-area .modal-header {
-    background: #37a000 none repeat scroll 0 0;
+    background: #C7AF59 none repeat scroll 0 0;
     letter-spacing: 2px;
     text-align: center;
 }
 
 .contact-form .form-control {
-    border: 1px solid #37a000;
+    border: 1px solid #C7AF59;
     border-radius: 0;
-    color: #37a000;
+    color: #C7AF59;
     font-size: 15px;
     height: auto;
     margin-bottom: 20px;
@@ -1444,7 +1446,7 @@ label.mt10.valid {
 }
 
 .contact-form button {
-    background: #37a000 none repeat scroll 0 0;
+    background: #C7AF59 none repeat scroll 0 0;
     border: 0 none;
     font-size: 18px;
     font-weight: 700;
@@ -1458,6 +1460,7 @@ label.mt10.valid {
 
 .contact-form button:hover {
     background: #494949 none repeat scroll 0 0;
+    color: #fff;
 }
 
 .contact-form-area .modal-header h4 {
@@ -1612,7 +1615,7 @@ ul.footer-list li {
 -------------------------------*/
 
 a.scrolltotop {
-    background: #37a000 none repeat scroll 0 0;
+    background: #C7AF59 none repeat scroll 0 0;
     bottom: 20px;
     box-shadow: 0 0 0 7px transparent;
     color: #ffffff;
@@ -1638,5 +1641,5 @@ a.scrolltotop:hover {
 ------------------------------*/
 
 .preloader-spinner {
-    border: 5px solid #37a000;
+    border: 5px solid #C7AF59;
 }
