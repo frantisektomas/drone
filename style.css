@@ -28,6 +28,34 @@ Version: 1.0
    1. BASE CSS
 ----------------------*/
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    justify-content: center; /* Center content horizontally */
+    width: 1200px; /* Total width including gaps */
+    margin: 0 auto; /* Center the grid container */
+  }
+  
+ .div2 {
+    height: 400px;
+    padding: 10px;
+    width: 400px; /* Width of each div */
+    text-align: center; /* Center text horizontally */
+    font-size: 20px;
+    
+  }
+
+  .own-drone-class {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .div1 {
+    padding: 10px;
+    width: 750px; /* Width of each div */
+    text-align:initial; /* Center text horizontally */
+  }
+
 .own_btn {
     color: #ffffff;
 
@@ -150,7 +178,6 @@ input:-webkit-autofill:focus {
 }
 
 .gray-bg {
-    background: #F3F3F3;
     color: #5b5a5a
 }
 
@@ -221,13 +248,15 @@ input:-webkit-autofill:focus {
 }
 
 .navbar-header {
-    margin-top: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
 
 .is-sticky .navbar-header {
     margin-top: 6px;
+    width: 40px;
 }
 
 .navbar-brand {
