@@ -32,17 +32,17 @@ Version: 1.0
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns with equal width */
     justify-content: center; /* Center content horizontally */
-    width: 1200px; /* Total width including gaps */
+    width: 1150px; /* Total width including gaps */
     margin: 0 auto; /* Center the grid container */
   }
   
  .div2 {
     height: 400px;
     padding: 10px;
-    width: 400px; /* Width of each div */
+    width: 700px; /* Width of each div */
     text-align: center; /* Center text horizontally */
     font-size: 20px;
-    
+    margin-left: 20px;
   }
 
   .own-drone-class {
@@ -51,8 +51,10 @@ Version: 1.0
   }
   
   .div1 {
+    margin-top: 20px;
+    margin-left: 40px;
     padding: 10px;
-    width: 750px; /* Width of each div */
+    width: 450px; /* Width of each div */
     text-align:initial; /* Center text horizontally */
   }
 
